@@ -117,5 +117,5 @@ if __name__ == '__main__':
     # If the filename is not in the arguments, ask for it
     print('Please input the .txt filename')
     print('txt file should be in the same folder of this script.')
-    txt_filename = input()
+    txt_filename = input("filename: ")
     process_file(txt_filename)
