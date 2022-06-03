@@ -9,13 +9,6 @@ This repository contains a script to help users calculate the exact payment that
 
 * You only need python 3.7 or greater installed
 
-### Development Requirements
-
-* To run test you will need pytest installed
-```bash
-pip install pytest
-```
-
 # Sample Execution & Output
 
 You can import from another script, also use it from command line with or without arguments
@@ -56,6 +49,22 @@ output should be *simliar* to
 The amount to pay NAME is: XX USD
 The amount to pay NAME is: YY USD
 ```
+
+### Development Requirements
+
+* To run test you will need pytest installed
+```bash
+pip install pytest
+```
+
+## Development
+To run test just run this command in your Console
+```bash
+$ pytest
+```
+
+## Author
+- [Cesar Terrero](https://github.com/cesar128)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
